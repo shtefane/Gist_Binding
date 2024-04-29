@@ -16,7 +16,7 @@ struct ContentView: View {
         animation: .default)
     private var items: FetchedResults<Item>
     
-    @State private var backColor = Color.purple
+    @State private var backColor = Color.green
     
     var body: some View {
         
